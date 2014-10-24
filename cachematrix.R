@@ -38,3 +38,4 @@ cacheSolve <- function(x, ...) {
       m <- solve(data)
       x$setInverseCache(m)
       m
+}
